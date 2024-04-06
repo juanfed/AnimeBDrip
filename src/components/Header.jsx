@@ -18,11 +18,11 @@ const Header = () => {
             </Link>
           </h1>
 
-          {/* Aca irá el icono para desplegar el menu en dispositivos moviles */}
-          <label htmlFor="menu" className="nav__label">
-            <img src={hamburger} alt="menu" className="nav__img" />
-          </label>
-          <input type="checkbox" id="menu" className="nav__input" />
+					{/* Aca irá el icono para desplegar el menu en dispositivos moviles */}
+					<label htmlFor="menu" className="nav__label">
+						<img src={hamburger} alt="menu" className="nav__img" />
+					</label>
+					<input type="checkbox" id="menu" className="nav__input" />
 
           <div className="nav__menu">
             <Link to="/animeBDRip">Inicio</Link>
